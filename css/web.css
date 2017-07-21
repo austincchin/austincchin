@@ -1,10 +1,50 @@
-.title{
-	width:10px;
-	background-color:#000;
+body{
+	font-family: 'Open Sans', 'Verdana';
 }
 
-.quicklinks{
-	background-color: #ccc;
-	height:40px;
-	border: 5px solid white;
+p{
+	font-size: 14px;
 }
+
+.jumbotron{
+	margin-bottom:0px;
+}
+
+.btn{
+	background-color:#fff;	
+}
+
+.about{
+	padding: 20px;
+}
+
+.about a{
+	color: #E5AC40;
+}
+
+.quicklinks h4{
+	font-family: 'Bungee';
+}
+
+.quicklinks h4::before{
+	content: "[ ";
+}
+
+.quicklinks h4::after{
+	content: " ]";
+}
+
+.quicklink1{
+	/*background-color: #FFCF73;*/
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.quicklink2{
+	/*background-color: #E5AC40;	*/
+	margin: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
