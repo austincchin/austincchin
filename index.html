@@ -10,6 +10,9 @@
     <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Montserrat:100,400,400i,700,800" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 
+    <!-- Font Awesome SVG-->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
     <!-- Include the AngularJS library -->
     <script src="lib/angular.min.js"></script>
   </head>
@@ -22,46 +25,52 @@
       </div>
     </header>
 
-    <div class="container c-links">
-      <a href="files/AustinCChin_Resume.pdf" class="btn btn-default btn-lg fLink" role="button" target="_blank"><h5>Resume</h5></a>
-      <a href="#" class="btn btn-default btn-lg fLink" role="button"><h5>Contact</h5></a>
+    <div class="sidebarL col-xs-3 col-sm-2 col-md-2 col-lg-2">
+      <nav>
+        <ul>
+          <li class="link-active"><a href="#">Home</a></li>
+          <li class="link-sidebar"><a href="#">About</a></li>
+          <li class="link-sidebar"><a href="files/AustinCChin_Resume.pdf" target="_blank">Resume</a></li>
+          <li class="link-sidebar"><a href="#">Contact</a></li>
+
+        </ul>
+      </nav>
     </div>
+    <div class="sidebarR col-xs-9 col-sm-10 col-md-10 col-lg-10">
+      <!--
+      <div class="c-links">
+        <a href="files/AustinCChin_Resume.pdf" class="btn btn-default btn-lg fLink" role="button" target="_blank"><h5>Resume</h5></a>
+        <a href="#" class="btn btn-default btn-lg fLink" role="button"><h5>Contact</h5></a>
+      </div>-->
 
-
-    <div class="container c-work" align="center">
-      <h4>Projects</h4>
       
-      <div class="col-sm-4 col-lg-3">
-        <div class="project-widget">
-          <div class="caption">Partial Credit A Cappella</div>
+      <div class="c-work" align="center">
+        
+        <div class="col-xs-6 col-sm-4 col-lg-3">
+          <div class="project-widget">
+            <div class="caption"><h4>Computer Science</h4></div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-4 col-lg-3">
+          <div class="project-widget">
+            <div class="caption"><h4>Graphic Design</h4></div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-4 col-lg-3">
+          <div class="project-widget">
+            <div class="caption"><h4>Digital Art</h4></div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-4 col-lg-3">
+          <div class="project-widget">
+            <div class="caption"><h4>Human-Centered Design</h4></div>
+          </div>
         </div>
       </div>
-
-      <div class="col-sm-4 col-lg-3">
-        <div class="project-widget">
-        Animal Crossing Pocket Camp: Infographic
-        </div>
-      </div>
-
-
-      <div class="col-sm-4 col-lg-3">
-        <div class="project-widget">
-        Digital Art
-        </div>
-      </div>
-
-      <div class="col-sm-4 col-lg-3">
-        <div class="project-widget">
-        Graphic Design
-        </div>
-      </div>
-
-      <div class="col-sm-4 col-lg-3">
-        <div class="project-widget">
-        Human-Centered Design
-        </div>
-      </div>
-
+      
 
 
 
@@ -72,6 +81,8 @@
 
     <footer><div class="footer">
         <p>Austin C Chin - Designer & Developer</p>
+        <a href="https://www.linkedin.com/in/austincchin/" title="linkedin" target="_blank"><span class="fab fa-linkedin fa-lg"></span></a>
+        <a href="https://github.com/austincchin" title="github" target="_blank"><span class="fab fa-github fa-lg"></span></a>
     </div></footer>
     
     <!-- Modules -->
