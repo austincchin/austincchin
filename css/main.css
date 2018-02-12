@@ -72,8 +72,9 @@ nav ul{
 
 nav li{
 	display: block;
-	padding: 5px 2px;
+	padding: 5px 2px 5px 0px;
 	text-align: right;
+	font-size: 12px
 }
 
 
@@ -131,7 +132,9 @@ nav li{
   	font-size: 8px;
   }
 
-
+  nav li{
+  	font-size: 8px;
+  }
 }
 
 
